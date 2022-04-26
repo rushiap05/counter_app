@@ -1,0 +1,39 @@
+.decrease_button {
+    background-color: white;
+    color: brown;
+    border-color: brown;
+    border-right: none;
+    /* padding: 10px 23px; */
+    width: 55px;
+    border-radius: 7px 0px 0px 7px;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.increase_button {
+    background-color: brown;
+    color: white;
+    border-color: brown;
+    border-left: none;
+    /* padding: 10px 23px; */
+    width: 55px;
+    border-radius: 0px 7px 7px 0px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.counter_show {
+    border: 1.5px solid brown;
+    padding: 12px 22px;
+    background-color: rgb(255, 224, 229);
+    /* border-collapse: collapse; */
+    color: brown;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.counter_div {
+    display: flex;
+    width: fit-content;
+    margin: 150px auto;
+}
